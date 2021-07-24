@@ -47,10 +47,12 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
+        InlineKeyboardButton('Developer', url='https://t.me/raeeskalanthode'),
+        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/Raeesfilmhub/berlinv21')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('💫 Film Hub Channel 💫', url='https://t.me/filmhub8')
+    ],[
+        InlineKeyboardButton('💫 Series Hub Channel 💫', url='https://t.me/serieshub8')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
@@ -91,6 +93,7 @@ async def help(bot, update):
 async def about(bot, update):
     
     buttons = [[
+        InlineKeyboardButton('Join Channel ⚡', url="https://t.me/filmhub_8"),
         InlineKeyboardButton('Home ⚡', callback_data='start'),
         InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]
