@@ -13,7 +13,7 @@ class Translation(object):
 NB : നിങ്ങൾക്കും ഇതുപോലെ ഒരു Bot വേണമെങ്കിൽ എന്റെ മൊയലാളി യെ ബന്ധപ്പെടുക...😊
 
 For More Details Click Help Button Below..
-@filmhub_8
+@trollanumonusee
 </i>"""    
     
     HELP_TEXT = """
@@ -46,7 +46,7 @@ For More Details Click Help Button Below..
             
             -> <code>Status</code> - Button Will Shows The Stats Of Your Channel
             
-@filmhub_8
+@trollanumonusee
 """
     
     ABOUT_TEXT = """<b>➥ Name</b> : <code> Auto Filter Bot</code>
