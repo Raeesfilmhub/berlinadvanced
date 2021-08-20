@@ -35,7 +35,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '🔰OUR GROUP🔰', url="https://t.me/filmhub_8"
+                                    '🔰OUR GROUP🔰', url="https://t.me/trollanumonusee"
                                 )
                         ]
                     ]
@@ -50,9 +50,9 @@ async def start(bot, update):
         InlineKeyboardButton('Developer', url='https://t.me/raeeskalanthode'),
         InlineKeyboardButton('Source Code 🧾', url ='https://github.com/Raeesfilmhub/berlinv21')
     ],[
-        InlineKeyboardButton('💫 Film Hub Channel 💫', url='https://t.me/filmhub8')
+        InlineKeyboardButton('💫 Our Channel 💫', url='https://t.me/trollanumonusee1')
     ],[
-        InlineKeyboardButton('💫 Series Hub Channel 💫', url='https://t.me/serieshub8')
+        InlineKeyboardButton('💫 Our Group 💫', url='https://t.me/trollanumonusee')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
@@ -93,7 +93,7 @@ async def help(bot, update):
 async def about(bot, update):
     
     buttons = [[
-        InlineKeyboardButton('Join Channel ⚡', url="https://t.me/filmhub_8"),
+        InlineKeyboardButton('Join Channel ⚡', url="https://t.me/trollanumonusee1"),
         InlineKeyboardButton('Home ⚡', callback_data='start'),
         InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]
